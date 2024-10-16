@@ -1,0 +1,12 @@
+{
+  "exclude": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}
